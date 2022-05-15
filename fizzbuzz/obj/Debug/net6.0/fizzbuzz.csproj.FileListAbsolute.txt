@@ -1,0 +1,15 @@
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\bin\Debug\net6.0\fizzbuzz.exe
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\bin\Debug\net6.0\fizzbuzz.deps.json
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\bin\Debug\net6.0\fizzbuzz.runtimeconfig.json
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\bin\Debug\net6.0\fizzbuzz.dll
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\bin\Debug\net6.0\fizzbuzz.pdb
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\obj\Debug\net6.0\fizzbuzz.csproj.AssemblyReference.cache
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\obj\Debug\net6.0\fizzbuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\obj\Debug\net6.0\fizzbuzz.AssemblyInfoInputs.cache
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\obj\Debug\net6.0\fizzbuzz.AssemblyInfo.cs
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\obj\Debug\net6.0\fizzbuzz.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\obj\Debug\net6.0\fizzbuzz.dll
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\obj\Debug\net6.0\refint\fizzbuzz.dll
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\obj\Debug\net6.0\fizzbuzz.pdb
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\obj\Debug\net6.0\fizzbuzz.genruntimeconfig.cache
+C:\Users\Максим\Myprojects\homework1\fizzbuzz\obj\Debug\net6.0\ref\fizzbuzz.dll
