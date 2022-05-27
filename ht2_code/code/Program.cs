@@ -1,12 +1,25 @@
-﻿using System.Text.RegularExpressions;
-//Немного не по заданию, хотел адаптировать для любого текста
-Console.WriteLine("Введите текст без абзацев");// В консоль почему-то не вставляется с абзацами
-string text = Console.ReadLine();
-Console.WriteLine("Введите слово, которое хотите найти");
-string word = Console.ReadLine();
+﻿using System;
+using System.IO;
+using System.Text.RegularExpressions;
+Console.WriteLine("Введите весь путь к файлу");
+string path = Console.ReadLine();
+try
+{
+    using (StreamReader reader = new StreamReader(path))
+    {
+        string text = await reader.ReadToEndAsync();
+        Console.WriteLine("Введите слово, которое хотите найти");
+        string word = Console.ReadLine();
+        
+        Regex rx = new Regex(word,RegexOptions.Compiled | RegexOptions.IgnoreCase);
 
-Regex rx = new Regex(word,RegexOptions.Compiled | RegexOptions.IgnoreCase);
-
-MatchCollection matches = rx.Matches(text);
-int nummber = matches.Count;
-Console.WriteLine(nummber);
+        MatchCollection matches = rx.Matches(text);
+        int number = matches.Count;
+        Console.WriteLine(number);
+    }
+}
+catch (Exception e)
+{
+    Console.WriteLine("Файл не может быть прочтен:");
+    Console.WriteLine(e.Message);
+}
