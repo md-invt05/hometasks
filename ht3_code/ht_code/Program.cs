@@ -1,7 +1,5 @@
 ﻿using System;
 using System.IO;
-while (true)   //основной метод
-{
     try
     {
         Console.WriteLine("Введите название файла и его тип(пример: test.txt)");
@@ -29,4 +27,3 @@ while (true)   //основной метод
         Console.WriteLine($"Exception: {ex.Message}");
         Console.ResetColor();
     }
-}
