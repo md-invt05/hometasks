@@ -4,8 +4,8 @@ using System.IO;
     {
         Console.WriteLine("Введите название файла и его тип(пример: test.txt)");
         string name = Console.ReadLine();
-        var location = System.Reflection.Assembly.GetExecutingAssembly().Location;
-        var path = Path.GetDirectoryName(location);
+        string location = System.Reflection.Assembly.GetExecutingAssembly().Location;
+        string path = Path.GetDirectoryName(location);
         path = path + "/" + name;
         FileInfo file = new FileInfo(path);
         Console.WriteLine("введите текст");
